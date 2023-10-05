@@ -1,0 +1,122 @@
+html,body{margin:0;padding:0}
+
+body{font: 100% arian,sans-serif;text-align:center}
+
+p{margin:0 10px 10px}
+a{display:block;color: #981793;padding:10px}
+	
+div#titulo h1{height:40px;line-height:40px;margin:0; padding-left:10px;background: #EEE}
+
+div#contenedor{text-align:left}
+div#contenido p{line-height:1.4}
+
+div#piepagina{background: #333; color: #FFF}
+div#piepagina p{margin:0;padding:25px 10px}
+
+div#contenedor{width:999px;margin:0 auto}
+div#centro{float:left;width:100%}
+div#contenido{margin: 0 150px}
+div#menuIzquierdo{float:left;width:120px;margin-left:-1000px}
+
+div#piepagina{clear:left;width:100%}
+
+
+/* usar estructura del video para lo demas q siga y sisas */
+
+div#menuSuperior {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999; /* Pa verificar que este por encima de otros elementos */
+}
+
+div#menuSuperior ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex; /*  flexbox para  elementos horizontales */
+    justify-content: center; 
+}
+
+div#menuSuperior li {
+    margin-right: 20px;
+}
+
+div#menuSuperior a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+/* Estilo pa tabla */
+table {
+    width: 100%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #b2b2b2;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+/* Estilo para  filas  */
+tr:nth-child(odd) {
+    background-color: #f2f2f2;
+}
+
+div#menuIzquierdo {
+    background: #E6E6FA;
+    padding: 10px;
+    font-size: 20px;
+   
+}
+
+div#menuIzquierdo h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+div#menuIzquierdo ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+div#menuIzquierdo li {
+    margin-bottom: 10px;
+}
+
+div#menuIzquierdo a {
+    text-decoration: none;
+    color: #000;
+}
+
+div#menuIzquierdo a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+/* esto para el formulario */
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.form-label {
+    font-weight: bold;
+}
+
+.btn-primary {
+    margin-top: 20px;
+}
